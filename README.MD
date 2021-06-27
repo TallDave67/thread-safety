@@ -20,7 +20,7 @@ dates: June 19 - 26, 2021
 
 duration: 16 hours
 
-### Core code from Another Developer
+### Code from Another Developer
 
 These folks helped me along the way.
 
