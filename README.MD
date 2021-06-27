@@ -32,9 +32,11 @@ These folks helped me along the way.
 
 ## Output
 
-As you can see from the output, the first two threads are sharing the use of mutex which causes the 2nd thread to wait until the 1st thread is done adding elements to the shared vector.
+Note that thread 1 is the main thread.
 
-With the 3rd and 4th threads the situation is different as no mutex is being used to protect access to the shared vector.  In the output you can see that when the 3rd thread does its file io, the OS context switches over to the 4th thread who is able to add elements to the shared vector.
+As you can see from the output, the first set of child threads are sharing the use of mutex which causes the 3rd thread to wait until the 2nd thread is done adding elements to the shared vector.
+
+With the second set of child threads the situation is different as no mutex is being used to protect access to the shared vector.  In the output you can see that when the 4th thread does its file io, the OS context switches over to the 5th thread who is able to add elements to the shared vector.
 
 2021-06-27 08:30:31: ~/dev/moderncpp/thread-safety/main.cpp(15): main: starting main thread...
 
