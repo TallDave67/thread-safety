@@ -25,7 +25,9 @@ duration: 16 hours
 These folks helped me along the way.
 
 [cppreference.com::thread](https://en.cppreference.com/w/cpp/thread/thread)
+
 [Thread Id as int](https://stackoverflow.com/questions/7432100/how-to-get-integer-thread-id-in-c11)
+
 [Logging](https://stackoverflow.com/questions/48868895/synchronize-writing-to-log-in-a-multi-threading-process)
 
 ## Output
