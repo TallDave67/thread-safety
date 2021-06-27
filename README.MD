@@ -44,13 +44,13 @@ With the 3rd and 4th threads the situation is different as no mutex is being use
 
 2021-06-27 08:30:31: ~/dev/moderncpp/thread-safety/runnable.cpp(43): vec_out: results for thread 2
 
- 200 201 202 203 204 205 206 207 208 209
+> 200 201 202 203 204 205 206 207 208 209
  
 2021-06-27 08:30:31: ~/dev/moderncpp/thread-safety/runnable.cpp(15): run: start thread 3
 
 2021-06-27 08:30:31: ~/dev/moderncpp/thread-safety/runnable.cpp(43): vec_out: results for thread 3
 
- 200 201 202 203 204 205 206 207 208 209 300 301 302 303 304 305 306 307 308 309
+> 200 201 202 203 204 205 206 207 208 209 300 301 302 303 304 305 306 307 308 309
  
 2021-06-27 08:30:31: ~/dev/moderncpp/thread-safety/main.cpp(38): main: starting child threads without safety...
 
@@ -60,9 +60,9 @@ With the 3rd and 4th threads the situation is different as no mutex is being use
 
 2021-06-27 08:30:31: ~/dev/moderncpp/thread-safety/runnable.cpp(43): vec_out: results for thread 4
 
- 400 401 402 403 404 500 501 502 503 504 405 406 407 408 409
+> 400 401 402 403 404 500 501 502 503 504 405 406 407 408 409
  
 2021-06-27 08:30:31: ~/dev/moderncpp/thread-safety/runnable.cpp(43): vec_out: results for thread 5
 
- 400 401 402 403 404 500 501 502 503 504 405 406 407 408 409 505 506 507 508 509
+> 400 401 402 403 404 500 501 502 503 504 405 406 407 408 409 505 506 507 508 509
 
