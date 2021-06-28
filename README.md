@@ -34,7 +34,7 @@ These folks helped me along the way.
 
 Note that thread 1 is the main thread.
 
-As you can see from the output, because the first set of child threads are using a shared mutex to gate access to their shared vector, the 3rd thread waits to make any additions until the 2nd thread is done adding elements to the shared vector.
+As you can see from the output, because the first set of child threads is using a shared mutex to gate access to their shared vector, the 3rd thread waits to make any additions until the 2nd thread is done adding elements to the shared vector.
 
 With the second set of child threads the situation is different as no shared mutex is being used to protect access to the shared vector.  In the output you can see that when the 4th thread does its file IO, the OS context switches over to the 5th thread who is able to add elements to the shared vector before the 4th thread has completed his additions.
 
