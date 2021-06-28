@@ -1,4 +1,4 @@
-# Thread Safety
+# Thread Safety (C++11)
 
 This project demonstrates data modifications that are thread safe and those that are not thread safe in C++20.
 
