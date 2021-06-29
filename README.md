@@ -34,6 +34,16 @@ These folks helped me along the way.
 
 [Logging](https://stackoverflow.com/questions/48868895/synchronize-writing-to-log-in-a-multi-threading-process)
 
+## Description
+
+In this program there is 1 main thread that launches two sets of child thread pairs. Each pair shares a vector, and the threads do the same thing:
+
+* Push some elements onto the vector
+* Write a summary file
+* Push some more elements onto the vector
+
+The first thread pair also shares a mutex whereas the second pair does not.
+
 ## Output
 
 Note that thread 1 is the main thread.
