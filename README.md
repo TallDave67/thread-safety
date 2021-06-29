@@ -46,7 +46,7 @@ The first thread pair also shares a mutex whereas the second pair does not.
 
 ## Output
 
-Note that thread 1 is the main thread.
+*Note that thread 1 is the main thread.*
 
 As you can see from the output, because the first set of child threads is using a shared mutex to gate access to their shared vector, the 3rd thread waits to make any additions until the 2nd thread is done adding elements to the shared vector.
 
